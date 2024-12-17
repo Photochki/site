@@ -7,7 +7,7 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-There might be some problems basePath and assetPrefix in next.config.mjs
+There might be some problems basePath and assetPrefix in next.config.mjs <br>
 This what you should use to build project.
 
 ```
