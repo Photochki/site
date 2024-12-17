@@ -3,14 +3,14 @@
 const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
-  basePath: isProd ? '/site' : '',
+  basePath: isProd ? '/fotochkitest' : '',
   output: 'export',
   images: {
     unoptimized: true,
     loader: 'custom',
     loaderFile: './image-loader.js',
   },
-  assetPrefix: isProd ? '/site' : '',
+  assetPrefix: isProd ? '/fotochkitest' : '',
   trailingSlash: true,
 };
 
