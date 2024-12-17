@@ -1,14 +1,16 @@
 /** @type {import('next').NextConfig} */
 
-const isProd = process.env.NODE_ENV = "production";
+const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
-  basePath: isProd ? '/site' : '',
+  basePath: isProd ? '/fotochkitest' : '',
   output: 'export',
   images: {
     unoptimized: true,
+    loader: 'custom',
+    loaderFile: './image-loader.js',
   },
-  basePath: '',
+  assetPrefix: isProd ? '/fotochkitest' : '',
   trailingSlash: true,
 };
 
