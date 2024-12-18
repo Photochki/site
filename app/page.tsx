@@ -194,7 +194,7 @@ export default function Home() {
         </section>
         <section id="pricing" className="w-full py-20 md:py-32 lg:py-40 border-b border-[#00FF00]/20">
           <div className="container mx-auto max-w-6xl px-6 md:px-8">
-            <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-center mb-16 text-[#00FF00]">Наши цены</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-12 text-[#00FF00]">Наши цены</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
               <PriceCard title="Базовая модель" price="14 999 ₽" features={["AR функции", "Голосовое управление", "Базовый дизайн"]} />
               <PriceCard title="Продвинутая модель" price="24 999 ₽" features={["AR + VR функции", "Голосовое управление", "Расширенный дизайн", "Геймификация"]} />
