@@ -37,7 +37,7 @@ export default function AboutPage() {
                     <Mail className="h-6 w-6 text-[#00FF00]" />
                     <div>
                       <p className="font-medium">Email</p>
-                      <p className="text-gray-400">fotochki@mail.ru</p>
+                      <p className="text-gray-400">fotochki385@mail.ru</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4 p-4 border border-[#00FF00]/20 rounded-lg">
